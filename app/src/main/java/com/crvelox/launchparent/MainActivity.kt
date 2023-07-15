@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 
                         Button(onClick = {
                             val pack = "com.crvelox.launchchild"
-                            val action = "com.example.ACTION_CUSTOM_ACTION" 
+                            val action = "com.crvelox.launchchild.ACTION_CUSTOM_ACTION"
 
                             try {
                                 val launchIntent = Intent(action)
