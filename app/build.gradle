@@ -64,4 +64,9 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+    implementation 'com.github.blazebezz:lazier:0.0.24-beta'
+    implementation 'androidx.work:work-runtime-ktx:2.7.0'
+
+
 }
